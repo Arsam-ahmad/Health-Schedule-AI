@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthSchedule AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <!-- HERO / PRODUCT SECTION -->
+    <header class="hero">
+        <h1>HealthSchedule AI</h1>
+        <p class="tagline">Your AI-powered medical receptionist.
+            Schedule appointments with your voice.</p>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Speak Naturally</h3>
+            <p>Talk to our AI receptionist just like
+                you would on a phone call.</p>
+        </div>
+        <div class="feature">
+            <h3>Instant Scheduling</h3>
+            <p>Book appointments directly to your
+                Google Calendar with a single conversation.</p>
+        </div>
+        <div class="feature">
+            <h3>24/7 Availability</h3>
+            <p>No hold times, no business hours.
+                Schedule whenever it suits you.</p>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Click the microphone button or type your message.</li>
+            <li>Tell the receptionist what you need
+                (checkup, follow-up, specialist).</li>
+            <li>Provide your preferred date, time, and email.</li>
+            <li>Receive a Google Calendar invite instantly.</li>
+        </ol>
+    </section>
+
+    <!-- CHATBOT SECTION -->
+    <section class="chat-container">
+        <h2>Talk to Our Receptionist</h2>
+        <div id="chat-box"></div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type or use the mic...">
+            <button id="mic-btn" title="Hold to speak">Mic</button>
+            <button id="send-btn">Send</button>
+        </div>
+        <p id="status" class="status"></p>
+        </div>
+
+        <script src="/static/app.js"></script>
+</body>
+
+</html>
